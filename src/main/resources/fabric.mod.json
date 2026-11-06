@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bbsaianim",
+  "version": "${version}",
+  "name": "BBS AI Animator",
+  "description": "An AI animation director for BBS FS: walk as a model and watch it animate live in the style you describe.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.aianim.AiAnimatorClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*",
+    "bbs": "*"
+  }
+}
